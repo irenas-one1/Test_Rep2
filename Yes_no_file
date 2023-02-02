@@ -1,0 +1,8 @@
+//Modules 
+const names = require('./Modules1')
+const sayHi = require('./Modules2')
+console.log(names)
+
+sayHi('Meggy')
+sayHi(john)
+sayHi(peter)
