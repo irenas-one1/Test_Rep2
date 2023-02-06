@@ -4,5 +4,6 @@ const sayHi = require('./Modules2')
 console.log(names)
 
 sayHi('Meggy')
-sayHi(john)
-sayHi(peter)
+sayHi(Jhonny)
+sayHi(Peter)
+sayHi(Idan)
