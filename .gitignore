@@ -1,2 +1,4 @@
 # ignore.all .txt files
-*.txt
+#*.txt
+
+/node_modules

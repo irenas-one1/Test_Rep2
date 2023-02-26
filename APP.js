@@ -1,5 +1,5 @@
+const _ = require('lodash')
 
-console.log(__filename);
-setInterval(()=>{
-    console.log('Hello!')
-},1000)
+const items = [1, [2, [3, [4]]]]
+const newItems = _.flattenDeep(items);
+console.log(newItems);
